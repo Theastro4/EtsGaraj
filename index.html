@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETS Garajı - Ana Sayfa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        /* Change color when hovering over menu links */
+        nav ul li a:hover {
+            color: #F0C040; /* Hover color */
+        }
+
+        .mods {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .mod {
+            background-color: #fff;
+            padding: 80px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1;
+        }
+
+        .mod img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .feature {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ETS Garajı</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="modlar.html">Modlar</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mods">
+            <!-- Mod 1 -->
+            <div class="mod">
+                <img src="mod 1.png" alt="Mod 1">
+                <h3>Mercedes-Benz W212 2016 E63 AMG S</h3>
+                <a href="mod 1.html" class="download-btn" download>İndir</a>
+            </div>
+
+            <!-- Mod 2 -->
+            <div class="mod">
+                <img src="mod 4.png" alt="Mod 2">
+                <h3>Volvo Xc90</h3>
+                <a href="mod 4.html" class="download-btn" download>İndir</a>
+            </div>
+
+            <!-- Mod 3 -->
+            <div class="mod">
+                <img src="mod 9.png" alt="Mod 3">
+                <h3>Mod 3</h3>
+                <a href="mod 9.html" class="download-btn" download>İndir</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Kolay Erişim</h3>
+                <p>Modları kategori ve etiketlere göre kolayca bulun.</p>
+            </div>
+            <div class="feature">
+                <h3>Güvenilir İçerik</h3>
+                <p>Topluluk tarafından onaylanmış ve test edilmiş modlar.</p>
+            </div>
+            <div class="feature">
+                <h3>Aktif Topluluk</h3>
+                <p>Mod geliştiricileri ve oyuncularla etkileşimde bulunun.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ETS Garajı. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>

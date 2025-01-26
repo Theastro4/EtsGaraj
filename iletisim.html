@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETS Garajı - İletişim</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling for header and menu */
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        /* Change color when hovering over menu links */
+        nav ul li a:hover {
+            color: #F0C040; /* Yellow color on hover */
+        }
+
+        /* Styling for the 'Katıl' button */
+        .join-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Desired blue shade */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px; /* Smaller font size */
+            border-radius: 4px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .join-button:hover {
+            background-color: #0066CC; /* Darker shade for hover */
+            transform: scale(1.03); /* Slight zoom effect on hover */
+        }
+
+        .join-button:active {
+            background-color: #0052A3; /* Even darker shade on click */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ETS Garajı</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="modlar.html">Modlar</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>İletişim</h2>
+        <p>Aşağıdaki butona tıklayarak Discord sunucumuza katılabilirsiniz:</p>
+        <a href="https://discord.gg/MKQM4djn" target="_blank" class="join-button">Katıl</a>
+    </main>
+    <footer>
+        <p>&copy; 2025 ETS Garajı. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
